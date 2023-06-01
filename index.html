@@ -119,21 +119,18 @@
       <h2 class="display-5 text-center mb-5">Contact Me</h2>
       <div class="row justify-content-center">
         <div class="col-lg-6">
-          <form action="send_email.php" method="POST">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
+          <form action="https://formspree.io/f/xzbqlpyo" method="POST">
+          <label>
+            Your email:
+            <input type="email" name="email">
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
+        </form>
         </div>
       </div>
     </div>
