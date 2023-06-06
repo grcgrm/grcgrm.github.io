@@ -1,37 +1,142 @@
-/* Custom CSS */
+body {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-weight: 400;
+  background: #262727;
+}
+
+.navbar {
+  padding: 15px;
+}
+.navbar-nav {
+  text-transform: uppercase;
+}
+.navbar-brand {
+  color: #e15a60;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.nav-link{
+  color: #54b3d6;
+  margin-left: 10px;
+  font-size: 1em;
+}
+.nav-link:hover {
+  color: #54b3d6;
+}
+
 
 /* Hero Section */
 .hero {
-  background-color: #f8f9fa;
-  padding: 100px 0;
+  padding: 20px 0px;
+}
+.welcome-text {
+  color: #99c794;
+}
+.lead {
+  color: #6699cc;
+  font-size: 1.3em;
+}
+.code {
+  color: #c594c5;
 }
 
 /* About Section */
-#about {
-  padding: 100px 0;
+.about {
+  color: #5fb3b3;
 }
+.about-info {
+  color: #d4d4d4;
+  line-height: 0.8;
+}
+.sub-info1 {
+  color: #fac863;
+}
+.sub-info2 {
+  color: #c594c5;
+}
+
 
 /* Projects Section */
-#projects {
-  padding: 100px 0;
+.projects {
+  padding-top: 30px;
 }
-
-.card {
-  transition: transform 0.3s;
+.projects h2{
+  color:#67ad88;
 }
-
-.card:hover {
-  transform: translateY(-10px);
+.project-title {
+  color: #e15aa9;
+  text-decoration: none;
+  font-size: 1.3em;
 }
 
 /* Contact Section */
 #contact {
-  padding: 100px 0;
+  padding-top: 30px;
+}
+.contact h2{
+  color:#679ead;
+}
+.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+  border-radius: 0%;
+  color: #d4d4d4;
+}
+.form-control::placeholder {
+  color: #ea7d7d;
+}
+.form-control:focus{
+  background-color: transparent;
+  box-shadow: none;
+  color: #d4d4d4;
+}
+.btn {
+  color: #54b3d6;
+}
+.btn:hover {
+  color: #99c794;
+}
+.btn:focus {
+  color: #99c794;
+}
+.btn:active {
+  color: #99c794;
+}
+textarea {
+  scrollbar-width: thin;
+  scrollbar-color: #4579a7 #262727;
 }
 
-/* Footer */
-footer {
-  background-color: #343a40;
-  color: #fff;
-  padding: 20px 0;
+textarea::-webkit-scrollbar {
+  width: 7px;
+  cursor: grab;
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: #262727;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color:  #4579a7;
+  border-radius: 4px;
+  cursor: grab; 
+}
+
+@media screen and (max-width: 320px){
+  .nav-link{
+    font-size: 0.8em;
+  }
+  .welcome-text {
+    font-size: 1.5em;
+  }
+  .lead {
+    font-size: 1em;
+  }
+  .about-info {
+    font-size: 0.9em;
+  }
+  .project-title {
+    font-size: 1.2em;
+  }
 }
