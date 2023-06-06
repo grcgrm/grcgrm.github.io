@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Developer Portfolio</title>
+  <title>grcgrm</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   
@@ -14,137 +14,146 @@
   <!-- Custom Javascript -->
   <script src="script.js"></script>
 
+  <link rel="stylesheet" href="https://use.typekit.net/fxm3nqq.css">
+
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Web Developer Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <div class="container p-3">
+    <div class="row d-flex align-items-center">
+      <div class="col">
+        <a class="navbar-brand" href="/">
+          grcgrm
+        </a>
+      </div>
+      <div class="col text-end d-flex justify-content-end">
+        <a class="nav-link" href="mailto:grace.grumo12@gmail.com">
+          gmail
+        </a>
+        <a class="nav-link" href="https://github.com/grcgrm">
+          github
+        </a>
+        <a class="nav-link" href="https://www.linkedin.com/in/grace-grumo/">
+          linkedin
+        </a>
       </div>
     </div>
-  </nav>
+  </div>
+  
+  
+  
 
   <!-- Hero Section -->
   <header class="hero">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h1 class="display-4">Welcome to My Portfolio</h1>
-          <p class="lead">I am a passionate web developer with expertise in front-end development.</p>
+      <div class="row">
+        <div>
+          <h1 class="welcome-text">Welcome.</h1>
+          <p class="lead">I am a passionate <span class="code">&lt;web developer/&gt;</span> with expertise in front-end and knowledge of back-end.</p>       
         </div>
       </div>
     </div>
   </header>
 
   <!-- About Section -->
-  <section id="about" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h2 class="display-5">About Me</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales sapien ut ipsum cursus, eu convallis
-            velit volutpat.</p>
-          <p>Donec mattis dolor ac metus varius, in ultrices neque ultricies. Aliquam ac pretium nisi. Vivamus ut
-            elementum ipsum, eget porta turpis.</p>
+  <section id="about" class="container">
+    <div class="row">
+      <h2 class="about">About Me.</h2>
+        <div class="col-md-6">
+          <p class="about-info" id="experience">Years of Experience: <span class="sub-info1" id="years"></span> and <span class="sub-info2" id="months"></span></p>
+          <p class="about-info">Programming: <span class="sub-info1">HTML, CSS, Javascript, BootStrap, PHP,  C#, MySQL, Java</span></p>
+          <p class="about-info">Framework: <span class="sub-info2">ASP.Net, Laravel, CodeIgniter, Yii2</span></p>
         </div>
-        <div class="col-lg-6">
-          <img src="profile-image.jpg" alt="Profile Image" class="img-fluid rounded-circle">
+        <div class="col-md-6">
+            <p class="about-info">CMS: <span class="sub-info1">Umbraco, Wordpress, Wix, Shopify</span></p>
+            <p class="about-info">Creative: <span class="sub-info2">Figma, Adobe XD, Adobe Photoshop</span></p>
+            <p class="about-info">SEO: <span class="sub-info1">Google Analytics, Google Search Console, PageSpeed Insights</span></p>
         </div>
-      </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="py-5 bg-light">
+  <section class="projects">
     <div class="container">
-      <h2 class="display-5 text-center mb-5">My Projects</h2>
+      <h2 class="">Projects</h2>
       <div class="row">
         <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="project1.jpg" class="card-img-top" alt="Project 1">
-            <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales sapien ut
-                ipsum cursus.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
+              <a href="https://kmcmaggroup.com/for-lease/batangas/" class="project-title">Project 1
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+              </a>
+              <p class="about-info">Umbraco CMS, HMTL, CSS, JavaScript, Bootstrap, Hubspot, Google Analytics</p>
         </div>
         <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="project2.jpg" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales sapien ut
-                ipsum cursus.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
+          <a href="https://pbcom.kmcmaggroup.com/" class="project-title">Project 2
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </a>
+          <p class="about-info">Umbraco CMS, HMTL, CSS, JavaScript, Bootstrap, Hubspot, Google Analytics, Google Maps API</p>
         </div>
         <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="project3.jpg" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales sapien ut
-                ipsum cursus.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
+          <a href="https://onetrium.kmcmaggroup.com/" class="project-title">Project 3
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </a>
+          <p class="about-info">Umbraco CMS, HMTL, CSS, JavaScript, Bootstrap, Hubspot, Google Analytics, Google Maps API</p>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <a href="https://t1projectmanagement.com" class="project-title">Project 4
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </a>
+          <p class="about-info">Wordpress, HTML, CSS, JavaScript, PHP</p>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <a href="https://kmcmaggroup.com/" class="project-title">Project 5
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </a>
+          <p class="about-info">Umbraco CMS, HMTL, CSS, JavaScript, Bootstrap,  Hubspot, Google Analytics, Google Maps API, C#, ASP.Net, Cloudflare, IIS Manager, AWS, MS SQL</p>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <a href="https://kmcmaggroup.com/for-sale/ariara-island/" class="project-title">Project 6
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </a>
+          <p class="about-info">>Umbraco CMS, HMTL, CSS, JavaScript, Bootstrap, Hubspot, Google Analytics, Google Maps API</p>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- Contact Section -->
-  <section id="contact" class="py-5">
+  <section class="contact">
     <div class="container">
-      <h2 class="display-5 text-center mb-5">Contact Me</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-6">
-          <form action="https://formspree.io/f/xzbqlpyo" method="POST">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
+      <h2>Contact Me</h2>
+      <div class="row d-flex">
+          <form action="https://formspree.io/f/xzbqlpyo" method="POST" class="row">
+            <div class="col-md-3 mb-3">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" name="email" required>
+            <div class="col-md-3 mb-3">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="5" name="message" required></textarea>
+            <div class="col-md-4 mb-3">
+              <textarea class="form-control" id="message"  name="message" placeholder="Message" required style="height: 30px;"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="col-md-2 mb-3">
+              <button type="submit" class="btn">Send</button>
+            </div>
+
         </form>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-light text-center py-3">
-    <div class="container">
-      <p>&copy; 2023 Web Developer Portfolio. All rights reserved.</p>
-    </div>
-  </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
