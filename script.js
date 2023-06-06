@@ -19,5 +19,5 @@ var years = Math.floor(totalMonths / 12);
 var months = totalMonths % 12;
 
 // Update the HTML elements with the calculated values
-document.getElementById("years").textContent = years + " year";
-document.getElementById("months").textContent = months + " months";
+document.getElementById("years").innerText = years + " year";
+document.getElementById("months").innerText = months + " months";
