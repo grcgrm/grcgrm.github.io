@@ -52,6 +52,11 @@ body{
             font-size: 8px !important; /* Adjust font size */
             border-radius: 7px !important;
         }
+            .social-container .github {
+            padding: 5px 20px !important; /* Ensure padding applies */
+            font-size: 8px !important; /* Adjust font size */
+            border-radius: 7px !important;
+        }
 }
 .about-box{
     border-color: rgb(82, 82, 82);
@@ -170,6 +175,21 @@ body{
     text-decoration: none;
     font-size: 22px;
     padding-top: 20px;
+}
+.github{
+    box-shadow: #445651 0px 7px 0px 0px;
+}
+.github:hover{
+    background-color: #445651;
+    /*50, 168, 80*/
+    box-shadow: #445651 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+    border: solid 1px white;
+}
+.github-icon {
+    color: inherit;
+    text-decoration: none;
 }
 .meet{
     box-shadow: #445651 0px 7px 0px 0px;
